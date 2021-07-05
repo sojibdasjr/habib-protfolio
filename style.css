@@ -1,0 +1,42 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+section{
+    display: flex;
+}
+.h1{
+    font-size: 50px;
+}
+.noobmd{
+    color: orangered;
+}
+.h2{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.half-width{
+    width: 50%;
+    margin-left: 30px;
+}
+.half-width img{
+    width: 95%;
+    padding-right: 10px;
+}
+.about{
+    font-size: 35px;
+}
+.p{
+    font-size: 20px;
+    text-align: justify;
+}
+.id-link{
+    background-image: linear-gradient(rgb(219, 125, 61),rgb(245, 209, 4));
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+
+}
