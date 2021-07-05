@@ -1,8 +1,9 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
-section{
+.flx-continer{
     display: flex;
+    margin: 100px;
 }
 .h1{
     font-size: 50px;
@@ -15,13 +16,20 @@ section{
     text-align: center;
     
 }
+.ani{
+    font-size: 50px;
+    margin-left: 6%;
+}
 .half-width{
     width: 50%;
-    margin-left: 30px;
+
+
 }
 .half-width img{
-    width: 95%;
-    padding-right: 10px;
+    width: 100%;
+    margin-left: 50px;
+
+
 }
 .about{
     font-size: 35px;
@@ -38,5 +46,35 @@ section{
     padding: 10px 15px;
     border-radius: 5px;
 
+}
+.half-width2{
+    width: 50%;
+    margin-right: 40px;  
+}
 
+.half-width2 img{
+    width: 110%;
+   margin-right:50px;
+   
+}
+.gif-1{
+    box-shadow: 15px 15px 30px  rgb(53, 50, 50);
+    width: 40%;
+   margin-right: 10%;
+   margin-left: 25px;
+    
+}
+#border-1{
+    border-image:linear-gradient(blue, rgb(1, 252, 239)) ;
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+#border-2{
+    border-image:linear-gradient(rgb(190, 0, 248), rgb(255, 0, 0)) ;
+    border-left: 5px solid;
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
 }
